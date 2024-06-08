@@ -1,0 +1,108 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{C86D33E9-80A0-4939-BF82-016AA6EA676F}|TestProjecto\\TestProjecto.csproj|c:\\users\\jerem\\onedrive\\escritorio\\proyecto\\proyecto_construccionsoftware\\testprojecto\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C86D33E9-80A0-4939-BF82-016AA6EA676F}|TestProjecto\\TestProjecto.csproj|solutionrelative:testprojecto\\unittest1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{1D50949C-E0CE-41DC-9C5C-E9C8231F8AD7}|CapaDatos\\CapaDatos.csproj|C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\capadatos\\interface\\interfacenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{1D50949C-E0CE-41DC-9C5C-E9C8231F8AD7}|CapaDatos\\CapaDatos.csproj|solutionrelative:capadatos\\interface\\interfacenegocio.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B5608FD2-C895-4A2E-8447-BB4074B234E9}|Proyecto_2P_Final\\CapaPresentacion.csproj|C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\proyecto_2p_final\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B5608FD2-C895-4A2E-8447-BB4074B234E9}|Proyecto_2P_Final\\CapaPresentacion.csproj|solutionrelative:proyecto_2p_final\\frmlogin.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 6,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{d78612c7-9962-4b83-95d9-268046dad23a}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{b1e99781-ab81-11d0-b683-00aa00a3ee26}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "UnitTest1.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\TestProjecto\\UnitTest1.cs",
+              "RelativeDocumentMoniker": "TestProjecto\\UnitTest1.cs",
+              "ToolTip": "C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\TestProjecto\\UnitTest1.cs",
+              "RelativeToolTip": "TestProjecto\\UnitTest1.cs",
+              "ViewState": "AQIAAGUAAAAAAAAAAAAuwCoAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T04:20:24.471Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Microsoft.Common.CurrentVersion.targets",
+              "DocumentMoniker": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeDocumentMoniker": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ToolTip": "C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "RelativeToolTip": "..\\..\\..\\..\\..\\..\\Program Files\\Microsoft Visual Studio\\2022\\Community\\MSBuild\\Current\\Bin\\amd64\\Microsoft.Common.CurrentVersion.targets",
+              "ViewState": "AQIAADcHAAAAAAAAAAAMwEoHAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003801|",
+              "WhenOpened": "2024-06-08T04:11:33.522Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "InterfaceNegocio.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\CapaDatos\\Interface\\InterfaceNegocio.cs",
+              "RelativeDocumentMoniker": "CapaDatos\\Interface\\InterfaceNegocio.cs",
+              "ToolTip": "C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\CapaDatos\\Interface\\InterfaceNegocio.cs",
+              "RelativeToolTip": "CapaDatos\\Interface\\InterfaceNegocio.cs",
+              "ViewState": "AQIAAFwAAAAAAAAAAAA3wH8AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T04:03:15.613Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "frmLogin.cs",
+              "DocumentMoniker": "C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\Proyecto_2P_Final\\frmLogin.cs",
+              "RelativeDocumentMoniker": "Proyecto_2P_Final\\frmLogin.cs",
+              "ToolTip": "C:\\Users\\jerem\\OneDrive\\Escritorio\\Proyecto\\Proyecto_ConstruccionSoftware\\Proyecto_2P_Final\\frmLogin.cs",
+              "RelativeToolTip": "Proyecto_2P_Final\\frmLogin.cs",
+              "ViewState": "AQIAABQAAAAAAAAAAAAswDwAAABcAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-08T04:02:56.171Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

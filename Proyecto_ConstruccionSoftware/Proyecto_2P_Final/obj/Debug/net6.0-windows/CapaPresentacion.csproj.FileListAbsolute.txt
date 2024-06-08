@@ -1,0 +1,74 @@
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.exe
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.deps.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.runtimeconfig.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaNegocio.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaNegocio.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.Custom.RJTextBox.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmLogin.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\Proyecto_2P_Final.frmMenuPrincipal.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmRegistroCliente.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.Properties.Resources.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPres.61CA7C38.Up2Date
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\refint\CapaPresentacion.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.sourcelink.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmRegistroUsuario.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmConsultarUsuario.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmConsultarClientes.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.exe
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.deps.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.runtimeconfig.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\FontAwesome.Sharp.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\System.Data.SqlClient.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win-arm64\native\sni.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win-x64\native\sni.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win-x86\native\sni.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaNegocio.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaNegocio.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\bin\Debug\net6.0-windows\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.Custom.RJTextBox.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmConsultarClientes.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmConsultarUsuario.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmLogin.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\Proyecto_2P_Final.frmMenuPrincipal.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmRegistroCliente.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.frmRegistroUsuario.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.Properties.Resources.resources
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.csproj.GenerateResource.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.sourcelink.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPres.61CA7C38.Up2Date
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\refint\CapaPresentacion.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\CapaPresentacion.genruntimeconfig.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\Proyecto_2P_Final\obj\Debug\net6.0-windows\ref\CapaPresentacion.dll

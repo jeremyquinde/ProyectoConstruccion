@@ -1,0 +1,122 @@
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\Proyecto_2P_Final - copia\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\jeremy\universidad\web\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\jeremy\universidad\POE\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\jeremy\universidad\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\construccion software\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_Grupo5_Final\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\CapaDatos\obj\Debug\net6.0\CapaDatos.sourcelink.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\bin\Debug\net6.0\CapaDatos.deps.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\bin\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\bin\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.sourcelink.json
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\CapaDatos.pdb
+C:\Users\jerem\OneDrive\Escritorio\Proyecto\Proyecto_ConstruccionSoftware\Archivos de codigo\CapaDatos\obj\Debug\net6.0\ref\CapaDatos.dll

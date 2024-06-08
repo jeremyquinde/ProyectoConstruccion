@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Custom\CustomBtn.cs">
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Update="Custom\CustomTxt.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Update="frmConsultarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmConsultarUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmRegistroCliente.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="frmMenuPrincipal.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>

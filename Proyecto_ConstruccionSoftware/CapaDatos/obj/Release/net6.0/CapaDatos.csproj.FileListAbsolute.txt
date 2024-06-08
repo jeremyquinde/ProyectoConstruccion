@@ -1,0 +1,12 @@
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\bin\Release\net6.0\CapaDatos.deps.json
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\bin\Release\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\bin\Release\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\CapaDatos.csproj.AssemblyReference.cache
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\CapaDatos.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\CapaDatos.AssemblyInfoInputs.cache
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\CapaDatos.AssemblyInfo.cs
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\CapaDatos.csproj.CoreCompileInputs.cache
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\refint\CapaDatos.dll
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\CapaDatos.pdb
+C:\Users\jerem\Desktop\Proyecto_Grupo5_Final\CapaDatos\obj\Release\net6.0\ref\CapaDatos.dll
