@@ -31,50 +31,59 @@
             System.Windows.Forms.DataVisualization.Charting.ChartArea chartArea1 = new System.Windows.Forms.DataVisualization.Charting.ChartArea();
             System.Windows.Forms.DataVisualization.Charting.Legend legend1 = new System.Windows.Forms.DataVisualization.Charting.Legend();
             System.Windows.Forms.DataVisualization.Charting.Series series1 = new System.Windows.Forms.DataVisualization.Charting.Series();
-            btnVentaDiaria = new Button();
-            btnVentaSemanal = new Button();
-            btnVentaMensual = new Button();
+            btnFiltroHoy = new Button();
+            btnFiltroSemanal = new Button();
+            btnFiltroMensual = new Button();
             chartVentas = new System.Windows.Forms.DataVisualization.Charting.Chart();
             panel1 = new Panel();
+            totalVentas = new Label();
+            label4 = new Label();
             panel3 = new Panel();
+            totalBeneficio = new Label();
+            label6 = new Label();
             panel4 = new Panel();
-            dateTimePicker1 = new DateTimePicker();
-            dateTimePicker2 = new DateTimePicker();
+            totalIngresos = new Label();
+            label5 = new Label();
+            fechaDesde = new DateTimePicker();
+            fechaHasta = new DateTimePicker();
             label1 = new Label();
             label2 = new Label();
             label3 = new Label();
             ((System.ComponentModel.ISupportInitialize)chartVentas).BeginInit();
+            panel1.SuspendLayout();
+            panel3.SuspendLayout();
+            panel4.SuspendLayout();
             SuspendLayout();
             // 
-            // btnVentaDiaria
+            // btnFiltroHoy
             // 
-            btnVentaDiaria.Location = new Point(469, 110);
-            btnVentaDiaria.Name = "btnVentaDiaria";
-            btnVentaDiaria.Size = new Size(213, 33);
-            btnVentaDiaria.TabIndex = 0;
-            btnVentaDiaria.Text = "POR DIA";
-            btnVentaDiaria.UseVisualStyleBackColor = true;
-            btnVentaDiaria.Click += btnVentaDiaria_Click;
+            btnFiltroHoy.Location = new Point(469, 110);
+            btnFiltroHoy.Name = "btnFiltroHoy";
+            btnFiltroHoy.Size = new Size(213, 33);
+            btnFiltroHoy.TabIndex = 0;
+            btnFiltroHoy.Text = "HOY";
+            btnFiltroHoy.UseVisualStyleBackColor = true;
+            btnFiltroHoy.Click += btnFiltroHoy_Click;
             // 
-            // btnVentaSemanal
+            // btnFiltroSemanal
             // 
-            btnVentaSemanal.Location = new Point(694, 110);
-            btnVentaSemanal.Name = "btnVentaSemanal";
-            btnVentaSemanal.Size = new Size(213, 33);
-            btnVentaSemanal.TabIndex = 1;
-            btnVentaSemanal.Text = "POR SEMANA";
-            btnVentaSemanal.UseVisualStyleBackColor = true;
-            btnVentaSemanal.Click += btnVentaSemanal_Click;
+            btnFiltroSemanal.Location = new Point(694, 110);
+            btnFiltroSemanal.Name = "btnFiltroSemanal";
+            btnFiltroSemanal.Size = new Size(213, 33);
+            btnFiltroSemanal.TabIndex = 1;
+            btnFiltroSemanal.Text = "ULTIMOS 7 DIAS";
+            btnFiltroSemanal.UseVisualStyleBackColor = true;
+            btnFiltroSemanal.Click += btnFiltroSemanal_Click;
             // 
-            // btnVentaMensual
+            // btnFiltroMensual
             // 
-            btnVentaMensual.Location = new Point(917, 111);
-            btnVentaMensual.Name = "btnVentaMensual";
-            btnVentaMensual.Size = new Size(213, 33);
-            btnVentaMensual.TabIndex = 2;
-            btnVentaMensual.Text = "POR MES";
-            btnVentaMensual.UseVisualStyleBackColor = true;
-            btnVentaMensual.Click += btnVentaMensual_Click;
+            btnFiltroMensual.Location = new Point(917, 111);
+            btnFiltroMensual.Name = "btnFiltroMensual";
+            btnFiltroMensual.Size = new Size(213, 33);
+            btnFiltroMensual.TabIndex = 2;
+            btnFiltroMensual.Text = "ULTIMOS 30 DIAS";
+            btnFiltroMensual.UseVisualStyleBackColor = true;
+            btnFiltroMensual.Click += btnFiltroMensual_Click;
             // 
             // chartVentas
             // 
@@ -111,47 +120,111 @@
             // panel1
             // 
             panel1.BackColor = Color.Gainsboro;
-            panel1.Location = new Point(68, 180);
+            panel1.Controls.Add(totalVentas);
+            panel1.Controls.Add(label4);
+            panel1.Location = new Point(79, 180);
             panel1.Name = "panel1";
-            panel1.Size = new Size(375, 100);
+            panel1.Size = new Size(350, 100);
             panel1.TabIndex = 4;
+            // 
+            // totalVentas
+            // 
+            totalVentas.AutoSize = true;
+            totalVentas.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            totalVentas.Location = new Point(151, 40);
+            totalVentas.Name = "totalVentas";
+            totalVentas.Size = new Size(0, 37);
+            totalVentas.TabIndex = 1;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.ForeColor = SystemColors.GrayText;
+            label4.Location = new Point(14, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(121, 21);
+            label4.TabIndex = 0;
+            label4.Text = "TOTAL VENTAS";
             // 
             // panel3
             // 
             panel3.BackColor = Color.Gainsboro;
-            panel3.Location = new Point(830, 180);
+            panel3.Controls.Add(totalBeneficio);
+            panel3.Controls.Add(label6);
+            panel3.Location = new Point(789, 180);
             panel3.Name = "panel3";
-            panel3.Size = new Size(300, 100);
+            panel3.Size = new Size(350, 100);
             panel3.TabIndex = 7;
+            // 
+            // totalBeneficio
+            // 
+            totalBeneficio.AutoSize = true;
+            totalBeneficio.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            totalBeneficio.Location = new Point(90, 40);
+            totalBeneficio.Name = "totalBeneficio";
+            totalBeneficio.Size = new Size(0, 37);
+            totalBeneficio.TabIndex = 2;
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.ForeColor = SystemColors.GrayText;
+            label6.Location = new Point(17, 9);
+            label6.Name = "label6";
+            label6.Size = new Size(141, 21);
+            label6.TabIndex = 1;
+            label6.Text = "TOTAL BENEFICIO";
             // 
             // panel4
             // 
             panel4.BackColor = Color.Gainsboro;
-            panel4.Location = new Point(449, 180);
+            panel4.Controls.Add(totalIngresos);
+            panel4.Controls.Add(label5);
+            panel4.Location = new Point(434, 180);
             panel4.Name = "panel4";
-            panel4.Size = new Size(375, 100);
+            panel4.Size = new Size(350, 100);
             panel4.TabIndex = 6;
             // 
-            // dateTimePicker1
+            // totalIngresos
             // 
-            dateTimePicker1.CustomFormat = "    dd/mm/yyyy - hh:mm";
-            dateTimePicker1.Enabled = false;
-            dateTimePicker1.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            dateTimePicker1.Format = DateTimePickerFormat.Custom;
-            dateTimePicker1.Location = new Point(183, 56);
-            dateTimePicker1.Name = "dateTimePicker1";
-            dateTimePicker1.Size = new Size(254, 33);
-            dateTimePicker1.TabIndex = 8;
+            totalIngresos.AutoSize = true;
+            totalIngresos.Font = new Font("Segoe UI", 20.25F, FontStyle.Bold, GraphicsUnit.Point);
+            totalIngresos.Location = new Point(84, 40);
+            totalIngresos.Name = "totalIngresos";
+            totalIngresos.Size = new Size(0, 37);
+            totalIngresos.TabIndex = 2;
             // 
-            // dateTimePicker2
+            // label5
             // 
-            dateTimePicker2.CustomFormat = "    dd/mm/yyyy - hh:mm";
-            dateTimePicker2.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
-            dateTimePicker2.Format = DateTimePickerFormat.Custom;
-            dateTimePicker2.Location = new Point(183, 110);
-            dateTimePicker2.Name = "dateTimePicker2";
-            dateTimePicker2.Size = new Size(254, 33);
-            dateTimePicker2.TabIndex = 9;
+            label5.AutoSize = true;
+            label5.ForeColor = SystemColors.GrayText;
+            label5.Location = new Point(13, 9);
+            label5.Name = "label5";
+            label5.Size = new Size(138, 21);
+            label5.TabIndex = 1;
+            label5.Text = "TOTAL INGRESOS";
+            // 
+            // fechaDesde
+            // 
+            fechaDesde.CustomFormat = "    dd/MM/yyyy - hh:mm";
+            fechaDesde.Enabled = false;
+            fechaDesde.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            fechaDesde.Format = DateTimePickerFormat.Custom;
+            fechaDesde.Location = new Point(183, 56);
+            fechaDesde.Name = "fechaDesde";
+            fechaDesde.Size = new Size(254, 33);
+            fechaDesde.TabIndex = 8;
+            // 
+            // fechaHasta
+            // 
+            fechaHasta.CustomFormat = "    dd/MM/yyyy - hh:mm";
+            fechaHasta.Enabled = false;
+            fechaHasta.Font = new Font("Segoe UI", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            fechaHasta.Format = DateTimePickerFormat.Custom;
+            fechaHasta.Location = new Point(183, 110);
+            fechaHasta.Name = "fechaHasta";
+            fechaHasta.Size = new Size(254, 33);
+            fechaHasta.TabIndex = 9;
             // 
             // label1
             // 
@@ -192,15 +265,15 @@
             Controls.Add(label3);
             Controls.Add(label2);
             Controls.Add(label1);
-            Controls.Add(dateTimePicker2);
-            Controls.Add(dateTimePicker1);
+            Controls.Add(fechaHasta);
+            Controls.Add(fechaDesde);
             Controls.Add(panel3);
             Controls.Add(panel4);
             Controls.Add(panel1);
             Controls.Add(chartVentas);
-            Controls.Add(btnVentaMensual);
-            Controls.Add(btnVentaSemanal);
-            Controls.Add(btnVentaDiaria);
+            Controls.Add(btnFiltroMensual);
+            Controls.Add(btnFiltroSemanal);
+            Controls.Add(btnFiltroHoy);
             Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             FormBorderStyle = FormBorderStyle.None;
             Margin = new Padding(4);
@@ -208,23 +281,35 @@
             Text = "frmInformeVentas";
             Load += frmInformeVentas_Load;
             ((System.ComponentModel.ISupportInitialize)chartVentas).EndInit();
+            panel1.ResumeLayout(false);
+            panel1.PerformLayout();
+            panel3.ResumeLayout(false);
+            panel3.PerformLayout();
+            panel4.ResumeLayout(false);
+            panel4.PerformLayout();
             ResumeLayout(false);
             PerformLayout();
         }
 
         #endregion
 
-        private Button btnVentaDiaria;
-        private Button btnVentaSemanal;
-        private Button btnVentaMensual;
+        private Button btnFiltroHoy;
+        private Button btnFiltroSemanal;
+        private Button btnFiltroMensual;
         private System.Windows.Forms.DataVisualization.Charting.Chart chartVentas;
         private Panel panel1;
         private Panel panel3;
         private Panel panel4;
-        private DateTimePicker dateTimePicker1;
-        private DateTimePicker dateTimePicker2;
+        private DateTimePicker fechaDesde;
+        private DateTimePicker fechaHasta;
         private Label label1;
         private Label label2;
         private Label label3;
+        private Label label4;
+        private Label label6;
+        private Label label5;
+        private Label totalVentas;
+        private Label totalBeneficio;
+        private Label totalIngresos;
     }
 }

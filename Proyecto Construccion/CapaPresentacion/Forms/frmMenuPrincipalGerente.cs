@@ -118,11 +118,6 @@ namespace CapaPresentacion
             mostrarFrm(new frmInicio());
         }
 
-        private void btnInformeInventario_Click(object sender, EventArgs e)
-        {
-            mostrarFrm(new frmInformeInventario());
-        }
-
         private void btnInformeVentas_Click(object sender, EventArgs e)
         {
             mostrarFrm(new frmInformeVentas());

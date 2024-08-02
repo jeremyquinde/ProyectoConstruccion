@@ -9,9 +9,9 @@ namespace CapaPresentacion.Forms
 {
     public partial class frmRegistrarVenta : Form
     {
-        ClienteViewModel cliente = new ClienteViewModel();
+        ClienteViewModel  cliente = new ClienteViewModel();
         ProductoViewModel producto = new ProductoViewModel();
-        VentaViewModel ventaViewModel = new VentaViewModel();
+        VentaViewModel    ventaViewModel = new VentaViewModel();
 
         public frmRegistrarVenta()
         {
@@ -22,25 +22,25 @@ namespace CapaPresentacion.Forms
         {
             CargarCedulasClientes();
             CargarIdsProductos();
+            LimpiarCampos();
         }
 
         private void CargarCedulasClientes()
         {
             var clientes = cliente.Obtener();
-            comboBoxCedula.DataSource = clientes;
-            comboBoxCedula.DisplayMember = "Cedula";
-            comboBoxCedula.ValueMember = "Cedula";
-            comboBoxCedula.SelectedIndex = -1;
+            comboBoxCedula.DataSource     = clientes;
+            comboBoxCedula.DisplayMember  = "Cedula";
+            comboBoxCedula.ValueMember    = "Cedula";
+            comboBoxCedula.SelectedIndex  = -1;
         }
 
         private void CargarIdsProductos()
         {
             var productos = producto.Obtener();
-            comboBoxIdProducto.DataSource = productos;
+            comboBoxIdProducto.DataSource    = productos;
             comboBoxIdProducto.DisplayMember = "IdProducto";
-            comboBoxIdProducto.ValueMember = "IdProducto";
+            comboBoxIdProducto.ValueMember   = "IdProducto";
             comboBoxIdProducto.SelectedIndex = -1;
-
         }
 
         private void comboBoxCedula_SelectedIndexChanged(object sender, EventArgs e)
@@ -48,87 +48,88 @@ namespace CapaPresentacion.Forms
             if (comboBoxCedula.SelectedItem != null)
             {
                 ClienteViewModel clienteSeleccionado = (ClienteViewModel)comboBoxCedula.SelectedItem;
-
-                if (clienteSeleccionado != null)
-                {
-                    txtClienteNombre.Text = clienteSeleccionado.Nombres;
-                    txtClienteApellido.Text = clienteSeleccionado.Apellidos;
-                }
-            }
-            else
-            {
-                txtClienteNombre.Text = string.Empty;
-                txtClienteApellido.Text = string.Empty;
+                txtClienteNombre.Text          = clienteSeleccionado.Nombres;
+                txtClienteApellido.Text        = clienteSeleccionado.Apellidos;
+                ventaViewModel.Cedula          = clienteSeleccionado.Cedula;
+                ventaViewModel.NombreCliente   = clienteSeleccionado.Nombres;
+                ventaViewModel.ApellidoCliente = clienteSeleccionado.Apellidos;
             }
         }
-
 
         private void comboBoxIdProducto_SelectedIndexChanged(object sender, EventArgs e)
         {
             if (comboBoxIdProducto.SelectedItem != null)
             {
                 ProductoViewModel productoSeleccionado = (ProductoViewModel)comboBoxIdProducto.SelectedItem;
-
-                if (productoSeleccionado != null)
-                {
-                    txtProductoNombre.Text = productoSeleccionado.Nombre;
-                    txtProductoMarca.Text = productoSeleccionado.Marca;
-                    txtProductoPrecio.Text = productoSeleccionado.Precio.ToString("F2");
-                }
-            }
-            else
-            {
-                txtProductoNombre.Text = string.Empty;
-                txtProductoMarca.Text = string.Empty;
-                txtProductoPrecio.Text = string.Empty;
+                txtProductoNombre.Text        = productoSeleccionado.Nombre;
+                txtProductoMarca.Text         = productoSeleccionado.Marca;
+                txtProductoPrecio.Text        = productoSeleccionado.Precio.ToString();
+                ventaViewModel.IdProducto     = productoSeleccionado.IdProducto;
+                ventaViewModel.NombreProducto = productoSeleccionado.Nombre;
+                ventaViewModel.MarcaProducto  = productoSeleccionado.Marca;
+                ventaViewModel.PrecioProducto = productoSeleccionado.Precio;
+                ActualizarPrecioFinal();
             }
         }
 
         private void txtCantidadProducto_TextChanged(object sender, EventArgs e)
         {
-            CalcularPrecioFinal();
+            if (int.TryParse(txtCantidadProducto.Text, out int cantidad))
+            {
+                ventaViewModel.CantidadProducto = cantidad;
+                ActualizarPrecioFinal();
+            }
         }
 
         private void txtDescuento_TextChanged(object sender, EventArgs e)
         {
-            CalcularPrecioFinal();
+            if (int.TryParse(txtDescuento.Text, out int descuento))
+            {
+                ventaViewModel.Descuento = descuento;
+                ActualizarPrecioFinal();
+            }
         }
 
-        private void CalcularPrecioFinal()
+        private void ActualizarPrecioFinal()
         {
-            if (int.TryParse(txtCantidadProducto.Text, out int cantidad) &&
-                decimal.TryParse(txtProductoPrecio.Text, out decimal precio) &&
-                int.TryParse(txtDescuento.Text, out int descuento))
-            {
-                decimal descuentoDecimal = descuento / 100m;
-                decimal precioFinal = cantidad * precio * (1 - descuentoDecimal);
-                txtPrecioFinal.Text = precioFinal.ToString("F2");
-            }
+            ventaViewModel.CalcularPrecioFinal();
+            txtPrecioFinal.Text = ventaViewModel.PrecioFinal.ToString("0.00");
         }
 
         private void btnVentaGuardar_Click(object sender, EventArgs e)
         {
-            var ventaViewModel = new VentaViewModel
-            {
-                Cedula = comboBoxCedula.SelectedValue.ToString(),
-                IdProducto = (int)comboBoxIdProducto.SelectedValue,
-                CantidadProducto = int.Parse(txtCantidadProducto.Text),
-                Descuento = int.Parse(txtDescuento.Text),
-                PrecioFinal = decimal.Parse(txtPrecioFinal.Text),
-                State = EntityState.Added
-            };
-
             var validationResults = ventaViewModel.Validate();
             if (validationResults.Count == 0)
             {
-                var result = ventaViewModel.SaveChanges();
-                MessageBox.Show(result);
+                ventaViewModel.State = EntityState.Added;
+                string message = ventaViewModel.SaveChanges();
+                MessageBox.Show(message);
+                LimpiarCampos();
             }
             else
             {
-                string listaErrores = string.Join("\n", validationResults.Select(errores => errores.ErrorMessage));
-                MessageBox.Show(listaErrores, "Error de validación", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                string errorMessage = string.Join("\n", validationResults.Select(r => r.ErrorMessage));
+                MessageBox.Show(errorMessage);
             }
+        }
+
+        private void LimpiarCampos()
+        {
+            comboBoxCedula.SelectedIndex     = -1;
+            comboBoxIdProducto.SelectedIndex = -1;
+            txtClienteNombre        .Clear();
+            txtClienteApellido      .Clear();
+            txtProductoNombre       .Clear();
+            txtProductoMarca        .Clear();
+            txtProductoPrecio       .Clear();
+            txtCantidadProducto     .Clear();
+            txtDescuento            .Clear();
+            txtPrecioFinal          .Clear();
+        }
+
+        private void btnVentaLimpiar_Click(object sender, EventArgs e)
+        {
+            LimpiarCampos();
         }
     }
 }

@@ -1,10 +1,12 @@
+GO
 Create Database dbProyectoCS;
+GO
 Use dbProyectoCS;
-;
+
 --======================================================================================--
 --=============================== MODULO CLIENTES ======================================--
 --======================================================================================--
-
+GO
 CREATE TABLE tb_clientes (
     id_cliente INT IDENTITY(1,1) PRIMARY KEY,
     nombres VARCHAR(50) NOT NULL,
@@ -80,9 +82,9 @@ END;
 --======================================================================================--
 --=================================== MODULO USUARIOS ==================================--
 --======================================================================================--
-
+GO
 CREATE TABLE tb_usuarios (
-    id_usuarios INT PRIMARY KEY IDENTITY(1,1),
+    id_usuario INT PRIMARY KEY IDENTITY(1,1),
 	apellidos VARCHAR(50) NOT NULL,
     nombres VARCHAR(50) NOT NULL,
     cedula INT NOT NULL,
@@ -185,7 +187,7 @@ END;
 --======================================================================================--
 --=================================== MODULO PRODUCTOS =================================--
 --======================================================================================--
-
+GO
 CREATE TABLE Productos (
     id_Producto INT PRIMARY KEY IDENTITY(1,1),
     Nombre NVARCHAR(100) NOT NULL,
@@ -258,6 +260,7 @@ END;
 --=================================== MODULO VENTAS ====================================--
 --======================================================================================--
 
+GO
 CREATE TABLE tb_Ventas (
     id_venta INT IDENTITY(1,1) PRIMARY KEY,
     cedula VARCHAR(10) NOT NULL,
@@ -265,9 +268,12 @@ CREATE TABLE tb_Ventas (
     cantidadDeProducto INT NOT NULL,
     descuento Varchar(5) NOT NULL,
     precioFinal DECIMAL(10, 2) NOT NULL,
+	fechaVenta DATETIME NOT NULL DEFAULT GETDATE(),
     FOREIGN KEY (cedula) REFERENCES tb_clientes(cedula),
     FOREIGN KEY (id_producto) REFERENCES Productos(id_Producto)
 );
+
+
 
 --SP para insertar ventas
 
@@ -343,27 +349,43 @@ BEGIN
     WHERE id_venta = @id_venta;
 END
 
+--sp para informe de ventas
 
-
-
-
-EXEC sp_InsertarVenta 
-    @cedula = '098',
-    @id_producto = 1,
-    @cantidadDeProducto = 2,
-    @descuento = '10',
-    @precioFinal = 2700.00;
-
-
-	-- Mostrar detalles de una venta
-EXEC sp_MostrarVentas;
-
+GO
+CREATE PROCEDURE sp_InformeVentas
+    @fechaInicio DATETIME,
+    @fechaFin DATETIME
+AS
+BEGIN
+    SELECT 
+        v.fechaVenta,
+        v.precioFinal,
+        v.cantidadDeProducto,
+        v.descuento,
+        v.id_producto,
+        p.precio
+    FROM 
+        tb_Ventas v
+    INNER JOIN 
+        Productos p ON v.id_producto = p.id_Producto
+    WHERE 
+        v.fechaVenta BETWEEN @fechaInicio AND @fechaFin
+    ORDER BY 
+        v.fechaVenta;
+END;
 
 -----------------------------------------INSERTAR VALORES--------------------------------------------------------
 
---INSERTAR USUARIO PARA INICIAR SESION
-INSERT INTO tb_usuarios VALUES ('grupo', 'cuatro', 'correo@correo.com');
-select * from tb_usuarios
+--INSERTAR USUARIOS PARA INICIAR SESION
+GO
+INSERT INTO tb_usuarios (apellidos, nombres, cedula, correo, telefono, direccion, rol, fecha_registro, contraseña)
+VALUES ('Pérez', 'Juan', 0123456789, 'jperez@example.com', 555123467, 'Calle Principal 123', 'administrador', '2024-07-24', 'administrador');
+GO
 
+INSERT INTO tb_usuarios (apellidos, nombres, cedula, correo, telefono, direccion, rol, fecha_registro, contraseña)
+VALUES ('Gómez', 'María', 0987654321, 'mgomez@example.com', 555987643, 'Avenida Central 456', 'vendedor', '2024-07-24', 'vendedor');
+GO
 
-
+INSERT INTO tb_usuarios (apellidos, nombres, cedula, correo, telefono, direccion, rol, fecha_registro, contraseña)
+VALUES ('Martínez', 'Luis', 654321987, 'lmartinez@example.com', 555222333, 'Boulevard Principal 789', 'gerente', '2024-07-24', 'gerente');
+GO

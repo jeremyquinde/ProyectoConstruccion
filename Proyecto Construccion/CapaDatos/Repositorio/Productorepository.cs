@@ -13,6 +13,7 @@ namespace CapaDatos.Repositorio
     public class Productorepository : MasterRepository, IGenericRepository<Producto>
     {
         //implementacion de la IGenericRepository
+        //Metodo para añadir los campos de la entidad producto a una lista
         public bool añadir(Producto entity)
         {
             parameters = new List<SqlParameter>();
@@ -25,6 +26,7 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_InsertarProducto", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad producto a una lista
         public bool editar(Producto entity)
         {
             parameters = new List<SqlParameter>();
@@ -38,6 +40,7 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_ActualizarProducto", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad producto a una lista
         public bool eliminar(int id)
 
         {
@@ -46,8 +49,10 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_EliminarProducto", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad producto a una lista
         public IEnumerable<Producto> obtener()
         {
+            var parameters = new List<SqlParameter>();
             var tableResult = ExecuteSpQuery("sp_MostrarProductos", parameters);
             var listProductos = new List<Producto>();
             foreach (DataRow item in tableResult.Rows)

@@ -8,6 +8,7 @@ using CapaDatos.Contratos;
 using CapaDatos.Entidades;
 using CapaDatos.Repositorio;
 using CapaNegocio.ValueObjects;
+using Microsoft.Data.SqlClient;
 using Microsoft.Identity.Client;
 
 namespace CapaNegocio.Modelo
@@ -43,6 +44,7 @@ namespace CapaNegocio.Modelo
             _clienteRepository = new ClienteRepository();
         }
 
+        //Metodo que usa entityState para guardar los cambios dependiendo del estado
 
         public string SaveChanges()
         {
@@ -76,6 +78,13 @@ namespace CapaNegocio.Modelo
                 }
 
             }
+            catch (SqlException ex)
+            {
+                if (ex.Number == 547) 
+                {
+                    message = "Primero deben borrarse las ventas asignadas a este cliente.";
+                }
+            }
             catch (Exception ex)
             {
                 message = ex.Message;
@@ -83,7 +92,7 @@ namespace CapaNegocio.Modelo
             return message;
         }
 
-
+        //Metodo para obtener los datos de la tabla y devovlerlos como lsita
         public List<ClienteModel> obtener()
         {
             var tablaCliente = _clienteRepository.obtener();

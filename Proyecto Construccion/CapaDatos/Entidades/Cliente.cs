@@ -8,7 +8,7 @@ namespace CapaDatos.Entidades
 {
     public class Cliente
     {
-        //representan las entidades de la base de datos
+        //representan los campos de la tabla cliente
         public int     idCliente { get; set; }
         public string  nombres   { get; set; }
         public string  apellidos { get; set; }

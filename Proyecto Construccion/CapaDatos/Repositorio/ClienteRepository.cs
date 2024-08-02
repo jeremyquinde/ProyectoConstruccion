@@ -13,6 +13,7 @@ namespace CapaDatos.Repositorio
     public class ClienteRepository : MasterRepository, IGenericRepository<Cliente>
     {
         //implementacion de la IGenericRepository
+        //Metodo para añadir los campos de la entidad clientes a una lista
         public bool añadir(Cliente entity)
         {
             parameters = new List<SqlParameter>();
@@ -26,6 +27,7 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_InsertarCliente", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad clientes a una lista
         public bool editar(Cliente entity)
         {
             parameters = new List<SqlParameter>();
@@ -40,6 +42,7 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_ActualizarCliente", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad clientes a una lista
         public bool eliminar(int id)
 
         {
@@ -48,8 +51,10 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_EliminarCliente", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad clientes a una lista
         public IEnumerable<Cliente> obtener()
         {
+            var parameters = new List<SqlParameter>();
             var tableResult = ExecuteSpQuery("sp_MostrarClientes", parameters);
             var listClientes = new List<Cliente>();
             foreach (DataRow item in tableResult.Rows)

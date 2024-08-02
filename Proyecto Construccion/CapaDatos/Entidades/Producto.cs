@@ -8,6 +8,7 @@ namespace CapaDatos.Entidades
 {
     public class Producto
     {
+        //representan los campos de la tabla producto
         public int      idProducto      { get; set; }
         public string   nombre          { get; set; }
         public string   categoria       { get; set; }
@@ -17,10 +18,3 @@ namespace CapaDatos.Entidades
     }
 }
 
-
-//id_Producto INT PRIMARY KEY IDENTITY(1,1),
-//Nombre NVARCHAR(100) NOT NULL,
-//Categoria NVARCHAR(100) NOT NULL,
-//Marca NVARCHAR(100) NOT NULL,
-//CantidadStock INT NOT NULL,
-//Precio DECIMAL(10, 2) NOT NULL

@@ -6,11 +6,15 @@
     <Nullable>enable</Nullable>
     <UseWindowsForms>true</UseWindowsForms>
     <ImplicitUsings>enable</ImplicitUsings>
+	 <StartupObject>CapaPresentacion.Program</StartupObject>
   </PropertyGroup>
 
   <ItemGroup>
     <PackageReference Include="FontAwesome.Sharp" Version="6.3.0" />
+    <PackageReference Include="Microsoft.CodeCoverage" Version="17.10.0" />
     <PackageReference Include="Microsoft.Data.SqlClient" Version="5.2.1" />
+    <PackageReference Include="NUnit" Version="4.1.0" />
+    <PackageReference Include="NUnit3TestAdapter" Version="4.6.0" />
     <PackageReference Include="WinForms.DataVisualization" Version="1.9.2" />
   </ItemGroup>
 
@@ -19,9 +23,6 @@
   </ItemGroup>
 
   <ItemGroup>
-    <Compile Update="Forms\frmInformeInventario.cs">
-      <SubType>Form</SubType>
-    </Compile>
     <Compile Update="Forms\frmMenuPrincipalAdministrador.cs">
       <SubType>Form</SubType>
     </Compile>

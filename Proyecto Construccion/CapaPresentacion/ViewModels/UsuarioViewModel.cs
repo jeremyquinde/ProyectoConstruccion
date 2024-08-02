@@ -19,6 +19,7 @@ namespace CapaPresentacion.ViewModels
             _usuarioModel = new UsuarioModel();
         }
 
+        //Atributos mas validaciones de entrada de cada atributo
         public int  IdUsuario           { get; set; }
 
         [Required(ErrorMessage = "El nombre es obligatorio")]
@@ -41,16 +42,22 @@ namespace CapaPresentacion.ViewModels
         [RegularExpression(@"^\d+$", ErrorMessage = "El teléfono debe contener solo números")]
         public string   Telefono        { get; set; }
 
+        [Required(ErrorMessage = "La direccion es obligatorio")]
         public string   Direccion       { get; set; }
 
+        [Required(ErrorMessage = "La rol es obligatorio")]
+        [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "El rol debe contener solo letras")]
         public string   Rol             { get ; set; }
+
         public DateTime FechaRegistro   { get ; set ; }
+        
+        [Required(ErrorMessage = "La contraseña es obligatoria")]
         public string   Contraseña      { get; set; }
 
         public EntityState State        { private get; set; }
 
 
-
+        //Metodo para recoger los mensajes de error en validaciones y retornarlos como lista
         public List<ValidationResult> Validate()
         {
             var validationResults = new List<ValidationResult>();
@@ -59,6 +66,7 @@ namespace CapaPresentacion.ViewModels
             return validationResults;
         }
 
+        //Metodo para mapear los datos hacia usuario model
         public string SaveChanges()
         {
             _usuarioModel.IdUsuario     = IdUsuario;
@@ -76,6 +84,7 @@ namespace CapaPresentacion.ViewModels
             return _usuarioModel.SaveChanges();
         }
 
+        //Metodo para Mapear los datos desde usuario model a viewmodel
         public List<UsuarioViewModel> Obtener()
         {
             var usuarios = _usuarioModel.obtener();

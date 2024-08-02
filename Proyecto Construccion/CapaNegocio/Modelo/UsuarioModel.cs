@@ -46,7 +46,7 @@ namespace CapaNegocio.Modelo
             _usuarioRepository = new UsuarioRepository();
         }
 
-
+        //Metodo que usa entityState para guardar los cambios dependiendo del estado
         public string SaveChanges()
         {
             string message = "";
@@ -89,7 +89,7 @@ namespace CapaNegocio.Modelo
             return message;
         }
 
-
+        //Metodo apra obtener los datos y devolverlos como lista
         public List<UsuarioModel> obtener()
         {
             var tablaUsuarios = _usuarioRepository.obtener();
@@ -115,7 +115,7 @@ namespace CapaNegocio.Modelo
             return listUsuarios;
         }
 
-
+        //Metodo para autenticar usuario
         public Usuario AutenticarUsuario(string cedula, string contraseña)
         {
             return _usuarioRepository.AutenticarUsuario(cedula, contraseña);

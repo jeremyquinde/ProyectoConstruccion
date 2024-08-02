@@ -39,12 +39,16 @@ namespace CapaPresentacion
             label3 = new Label();
             label1 = new Label();
             pictureBox1 = new PictureBox();
+            label5 = new Label();
+            label6 = new Label();
             panel1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // panel1
             // 
+            panel1.Controls.Add(label6);
+            panel1.Controls.Add(label5);
             panel1.Controls.Add(btnLogin);
             panel1.Controls.Add(label4);
             panel1.Controls.Add(label2);
@@ -83,11 +87,11 @@ namespace CapaPresentacion
             label4.AutoSize = true;
             label4.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
             label4.ForeColor = Color.DarkGray;
-            label4.Location = new Point(108, 157);
+            label4.Location = new Point(71, 102);
             label4.Name = "label4";
-            label4.Size = new Size(188, 21);
+            label4.Size = new Size(296, 21);
             label4.TabIndex = 10;
-            label4.Text = "User: Grupo pass: Cinco";
+            label4.Text = "User: 0123456789 pass: administrador";
             // 
             // label2
             // 
@@ -143,7 +147,7 @@ namespace CapaPresentacion
             label3.AutoSize = true;
             label3.Font = new Font("Segoe UI Black", 35.25F, FontStyle.Bold, GraphicsUnit.Point);
             label3.ForeColor = Color.OrangeRed;
-            label3.Location = new Point(60, 95);
+            label3.Location = new Point(58, 37);
             label3.Name = "label3";
             label3.Size = new Size(324, 62);
             label3.TabIndex = 4;
@@ -170,6 +174,28 @@ namespace CapaPresentacion
             pictureBox1.SizeMode = PictureBoxSizeMode.CenterImage;
             pictureBox1.TabIndex = 1;
             pictureBox1.TabStop = false;
+            // 
+            // label5
+            // 
+            label5.AutoSize = true;
+            label5.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label5.ForeColor = Color.DarkGray;
+            label5.Location = new Point(75, 133);
+            label5.Name = "label5";
+            label5.Size = new Size(261, 21);
+            label5.TabIndex = 12;
+            label5.Text = "User: 0987654321 pass: vendedor";
+            // 
+            // label6
+            // 
+            label6.AutoSize = true;
+            label6.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
+            label6.ForeColor = Color.DarkGray;
+            label6.Location = new Point(75, 164);
+            label6.Name = "label6";
+            label6.Size = new Size(238, 21);
+            label6.TabIndex = 13;
+            label6.Text = "User: 654321987 pass: gerente";
             // 
             // frmLogin
             // 
@@ -201,5 +227,7 @@ namespace CapaPresentacion
         private Label label2;
         private Label label4;
         private CustomBtn btnLogin;
+        private Label label6;
+        private Label label5;
     }
 }

@@ -8,6 +8,7 @@ namespace CapaDatos.Entidades
 {
     public class Usuario
     {
+        //representan los campos de la tabla usuario
         public int      idUsuario     { get; set; }
         public string   apellidos     { get; set; }
         public string   nombres       { get; set; }

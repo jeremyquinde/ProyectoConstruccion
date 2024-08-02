@@ -4,9 +4,12 @@ using System.Diagnostics;
 
 namespace CapaDatos.Repositorio
 {
+    //Repositorio maestro para ejecutar los stored procedures de tipo Query y nonQuery
     public class MasterRepository : Repository
     {
         protected List<SqlParameter> parameters;
+        //Metodo que recibe lista de parametros y el nombre del stored procedure
+        //para ejecutar los stored procedures de tipo nonQuery de la base de datos
         protected bool ExecuteSpNonQuery(string nombreSP, List<SqlParameter> listParametros)
         {
             using (var connection = GetConnection())
@@ -33,6 +36,8 @@ namespace CapaDatos.Repositorio
             }
         }
 
+        //Metodo que recibe lista de parametros y el nombre del stored procedure
+        //para ejecutar los stored procedures de tipo Query de la base de datos
         protected DataTable ExecuteSpQuery(string nombreSP, List<SqlParameter> listParametros)
         {
             using (var connection = GetConnection())
@@ -46,7 +51,9 @@ namespace CapaDatos.Repositorio
 
                     if (listParametros != null)
                     {
-                        command.Parameters.AddRange(listParametros.ToArray());
+                        var parametrosCopia = listParametros.Select(p => new SqlParameter(p.ParameterName, p.Value)).ToArray();
+
+                        command.Parameters.AddRange(parametrosCopia);
                     }
 
                     SqlDataReader reader = command.ExecuteReader();
@@ -56,9 +63,11 @@ namespace CapaDatos.Repositorio
                         reader.Dispose();
                         return table;
                     }
-
                 }
             }
         }
+
+
+
     }
 }

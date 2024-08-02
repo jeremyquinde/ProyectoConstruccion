@@ -87,6 +87,7 @@
             btnVentaLimpiar.TabIndex = 47;
             btnVentaLimpiar.Text = "LIMPIAR";
             btnVentaLimpiar.UseVisualStyleBackColor = true;
+            btnVentaLimpiar.Click += btnVentaLimpiar_Click;
             // 
             // btnVentaGuardar
             // 
@@ -127,11 +128,13 @@
             txtDescuento.Name = "txtDescuento";
             txtDescuento.Size = new Size(257, 29);
             txtDescuento.TabIndex = 55;
+            txtDescuento.TextChanged += txtDescuento_TextChanged;
             // 
             // txtPrecioFinal
             // 
             txtPrecioFinal.Anchor = AnchorStyles.None;
             txtPrecioFinal.BackColor = Color.Gainsboro;
+            txtPrecioFinal.Enabled = false;
             txtPrecioFinal.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtPrecioFinal.Location = new Point(44, 347);
             txtPrecioFinal.Margin = new Padding(4);
@@ -188,6 +191,7 @@
             txtCantidadProducto.Name = "txtCantidadProducto";
             txtCantidadProducto.Size = new Size(257, 29);
             txtCantidadProducto.TabIndex = 38;
+            txtCantidadProducto.TextChanged += txtCantidadProducto_TextChanged;
             // 
             // label13
             // 
@@ -233,6 +237,7 @@
             // 
             txtClienteApellido.Anchor = AnchorStyles.None;
             txtClienteApellido.BackColor = Color.Gainsboro;
+            txtClienteApellido.Enabled = false;
             txtClienteApellido.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtClienteApellido.Location = new Point(47, 347);
             txtClienteApellido.Margin = new Padding(4);
@@ -283,6 +288,7 @@
             // 
             txtClienteNombre.Anchor = AnchorStyles.None;
             txtClienteNombre.BackColor = Color.Gainsboro;
+            txtClienteNombre.Enabled = false;
             txtClienteNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtClienteNombre.Location = new Point(47, 256);
             txtClienteNombre.Margin = new Padding(4);
@@ -362,6 +368,7 @@
             // 
             txtProductoPrecio.Anchor = AnchorStyles.None;
             txtProductoPrecio.BackColor = Color.Gainsboro;
+            txtProductoPrecio.Enabled = false;
             txtProductoPrecio.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtProductoPrecio.Location = new Point(47, 435);
             txtProductoPrecio.Margin = new Padding(4);
@@ -399,6 +406,7 @@
             // 
             txtProductoNombre.Anchor = AnchorStyles.None;
             txtProductoNombre.BackColor = Color.Gainsboro;
+            txtProductoNombre.Enabled = false;
             txtProductoNombre.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtProductoNombre.Location = new Point(46, 256);
             txtProductoNombre.Margin = new Padding(4);
@@ -410,6 +418,7 @@
             // 
             txtProductoMarca.Anchor = AnchorStyles.None;
             txtProductoMarca.BackColor = Color.Gainsboro;
+            txtProductoMarca.Enabled = false;
             txtProductoMarca.Font = new Font("Segoe UI", 12F, FontStyle.Regular, GraphicsUnit.Point);
             txtProductoMarca.Location = new Point(46, 347);
             txtProductoMarca.Margin = new Padding(4);

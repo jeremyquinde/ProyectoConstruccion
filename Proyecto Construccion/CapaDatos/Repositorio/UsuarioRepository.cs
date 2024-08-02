@@ -12,7 +12,8 @@ namespace CapaDatos.Repositorio
 {
     public class UsuarioRepository : MasterRepository, IUsuarioRepository
     {
-        //implementacion de la IGenericRepository
+        //implementacion de la IUsuarioRepository
+        //Metodo para añadir los campos de la entidad usuario a una lista
         public bool añadir(Usuario entity)
         {
             parameters = new List<SqlParameter>();
@@ -29,6 +30,7 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_InsertarUsuario", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad usuario a una lista
         public bool editar(Usuario entity)
         {
             parameters = new List<SqlParameter>();
@@ -46,6 +48,7 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_ActualizarUsuario", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad usuario a una lista
         public bool eliminar(int id)
 
         {
@@ -54,6 +57,7 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_EliminarUsuario", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad usuario a una lista
         public IEnumerable<Usuario> obtener()
         {
             var tableResult = ExecuteSpQuery("sp_MostrarUsuarios", parameters);
@@ -80,6 +84,7 @@ namespace CapaDatos.Repositorio
         }
 
 
+        //Metodo para añadir los campos de la entidad usuario a una lista y realizar la autenticacion
         public Usuario AutenticarUsuario(string cedula, string contraseña)
         {
             parameters = new List<SqlParameter>

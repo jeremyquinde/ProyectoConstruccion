@@ -16,15 +16,19 @@ namespace CapaPresentacion.ViewModels
             _productoModel = new ProductoModel();
         }
 
+        //Atributos mas validaciones de entrada de cada atributo
         public int IdProducto { get; set; }
 
         [Required(ErrorMessage = "El nombre es obligatorio")]
+        [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "El nombre debe contener solo letras")]
         public string Nombre { get; set; }
 
         [Required(ErrorMessage = "La categoría es obligatoria")]
+        [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "La categoria debe contener solo letras")]
         public string Categoria { get; set; }
 
         [Required(ErrorMessage = "La marca es obligatoria")]
+        [RegularExpression(@"^[a-zA-Z\s]+$", ErrorMessage = "La marca debe contener solo letras")]
         public string Marca { get; set; }
 
         [Required(ErrorMessage = "La cantidad en stock es obligatoria")]
@@ -37,6 +41,7 @@ namespace CapaPresentacion.ViewModels
 
         public EntityState State { private get; set; }
 
+        //Metodo para recoger los mensajes de error en validaciones y retornarlos como lista
         public List<ValidationResult> Validate()
         {
             var validationResults = new List<ValidationResult>();
@@ -45,6 +50,7 @@ namespace CapaPresentacion.ViewModels
             return validationResults;
         }
 
+        //Metodo para mapear los datos hacia producto model
         public string SaveChanges()
         {
             _productoModel.IdProducto = IdProducto;
@@ -58,6 +64,7 @@ namespace CapaPresentacion.ViewModels
             return _productoModel.SaveChanges();
         }
 
+        //Metodo para Mapear los datos desde producto model a viewmodel
         public List<ProductoViewModel> Obtener()
         {
             var productos = _productoModel.obtener();

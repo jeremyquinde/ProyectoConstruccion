@@ -20,6 +20,7 @@ namespace CapaNegocio.Modelo
         private int      _cantidadProducto;
         private int      _descuento;
         private decimal  _precioFinal;
+        public DateTime FechaVenta { get; set; }
 
 
         //Propiedades
@@ -30,18 +31,33 @@ namespace CapaNegocio.Modelo
         public int      Descuento        { get => _descuento;        set => _descuento        = value;  }
         public decimal  PrecioFinal      { get => _precioFinal;      set => _precioFinal      = value;  }
 
-
-
-        private IGenericRepository<Venta> _ventaRepository;
+        private IVentaRepository _ventaRepository;
         public EntityState State { private get; set; }
-        //Metodos
 
+        // Métodos
         public VentaModel()
         {
             _ventaRepository = new VentaRepository();
         }
 
+        //Metodo para calcular y mostrar el precio final
+        public void CalcularPrecioFinal()
+        {
+            decimal descuentoDecimal = Descuento / 100m;
+            PrecioFinal = CantidadProducto * IdProducto.precio * (1 - descuentoDecimal);
+        }
 
+        //Metodo para calcular los totales de ventas, y los precios con y sin descuentos
+        public (int TotalVentas, decimal TotalIngresos, decimal TotalBeneficio) CalcularTotales(List<VentaModel> ventas)
+        {
+            int totalVentas = ventas.Count;
+            decimal totalIngresos = ventas.Sum(v => v.PrecioFinal);
+            decimal totalBeneficio = ventas.Sum(v => v.CantidadProducto * v.IdProducto.precio);
+
+            return (totalVentas, totalIngresos, totalBeneficio);
+        }
+
+        //Metodo que usa entityState para guardar los cambios dependiendo del estado
         public string SaveChanges()
         {
             string message = "";
@@ -71,7 +87,6 @@ namespace CapaNegocio.Modelo
                         message = "Se elimino correctamente";
                         break;
                 }
-
             }
             catch (Exception ex)
             {
@@ -80,7 +95,7 @@ namespace CapaNegocio.Modelo
             return message;
         }
 
-
+        //Metodo para obtener los datos de la tabla
         public List<VentaModel> obtener()
         {
             var tablaVenta = _ventaRepository.obtener();
@@ -100,6 +115,25 @@ namespace CapaNegocio.Modelo
             return listVentas;
         }
 
+        
+        //Metodo apra obtener y asignar el informe de las ventas
+        public List<VentaModel> ObtenerInformeVentas(DateTime fechaInicio, DateTime fechaFin)
+        {
+            var tablaVenta = _ventaRepository.ObtenerInformeVentas(fechaInicio, fechaFin);
+            var listVentas = new List<VentaModel>();
+            foreach (var item in tablaVenta)
+            {
+                listVentas.Add(new VentaModel
+                {
+                    FechaVenta = item.fechaVenta,
+                    IdProducto = item.idProducto,
+                    CantidadProducto = item.cantidadProducto,
+                    Descuento = item.descuento,
+                    PrecioFinal = item.precioFinal
+                });
+            }
+            return listVentas;
+        }
 
 
     }

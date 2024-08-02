@@ -11,33 +11,37 @@ using System.Threading.Tasks;
 
 namespace CapaDatos.Repositorio
 {
-    public class VentaRepository : MasterRepository, IGenericRepository<Venta>
+    public class VentaRepository : MasterRepository, IVentaRepository
     {
+        //implementacion de la IVentaRepository
+        //Metodo para añadir los campos de la entidad venta a una lista
         public bool añadir(Venta entity)
         {
             parameters = new List<SqlParameter>();
-            parameters.Add(new SqlParameter("@cedula",              entity.cedula.cedula         ));
-            parameters.Add(new SqlParameter("@id_producto",         entity.idProducto.idProducto ));
-            parameters.Add(new SqlParameter("@cantidadDeProducto",  entity.cantidadProducto      ));
-            parameters.Add(new SqlParameter("@descuento",           entity.descuento             ));
-            parameters.Add(new SqlParameter("@precioFinal ",        entity.precioFinal           ));
-        
+            parameters.Add(new SqlParameter("@cedula", entity.cedula.cedula));
+            parameters.Add(new SqlParameter("@id_producto", entity.idProducto.idProducto));
+            parameters.Add(new SqlParameter("@cantidadDeProducto", entity.cantidadProducto));
+            parameters.Add(new SqlParameter("@descuento", entity.descuento));
+            parameters.Add(new SqlParameter("@precioFinal ", entity.precioFinal));
+
             return ExecuteSpNonQuery("sp_InsertarVenta", parameters);
         }
-        
+
+        //Metodo para añadir los campos de la entidad venta a una lista
         public bool editar(Venta entity)
         {
             parameters = new List<SqlParameter>();
-            parameters.Add(new SqlParameter("@id_venta",            entity.idVenta               ));
-            parameters.Add(new SqlParameter("@cedula",              entity.cedula.cedula         ));
-            parameters.Add(new SqlParameter("@id_producto",         entity.idProducto.idProducto ));
-            parameters.Add(new SqlParameter("@cantidadDeProducto",  entity.cantidadProducto      ));
-            parameters.Add(new SqlParameter("@descuento",           entity.descuento             )); 
-            parameters.Add(new SqlParameter("@precioFinal ",        entity.precioFinal           ));
-        
+            parameters.Add(new SqlParameter("@id_venta", entity.idVenta));
+            parameters.Add(new SqlParameter("@cedula", entity.cedula.cedula));
+            parameters.Add(new SqlParameter("@id_producto", entity.idProducto.idProducto));
+            parameters.Add(new SqlParameter("@cantidadDeProducto", entity.cantidadProducto));
+            parameters.Add(new SqlParameter("@descuento", entity.descuento));
+            parameters.Add(new SqlParameter("@precioFinal ", entity.precioFinal));
+
             return ExecuteSpNonQuery("sp_ActualizarVenta", parameters);
         }
 
+        //Metodo para añadir los campos de la entidad venta a una lista
         public bool eliminar(int id)
         {
             parameters = new List<SqlParameter>();
@@ -45,9 +49,9 @@ namespace CapaDatos.Repositorio
             return ExecuteSpNonQuery("sp_EliminarVenta", parameters );
         }
 
+        //Metodo para añadir los campos de la entidad venta, cliente y producto a una lista
         public IEnumerable<Venta> obtener()
         {
-
             var tableResult = ExecuteSpQuery("sp_MostrarVentas", parameters);
             var listVentas = new List<Venta>();
 
@@ -82,6 +86,36 @@ namespace CapaDatos.Repositorio
             return listVentas;
         }
 
+        //Metodo para añadir los campos de la entidad venta a una lista
+        public IEnumerable<Venta> ObtenerInformeVentas(DateTime fechaInicio, DateTime fechaFin)
+        {
+            parameters = new List<SqlParameter>
+            {
+                new SqlParameter("@fechaInicio", fechaInicio),
+                new SqlParameter("@fechaFin", fechaFin)
+            };
 
+            var tableResult = ExecuteSpQuery("sp_InformeVentas", parameters);
+            var listVentas = new List<Venta>();
+
+            foreach (DataRow item in tableResult.Rows)
+            {
+                var producto = new Producto
+                {
+                    idProducto = Convert.ToInt32(item["id_producto"]),
+                    precio = Convert.ToDecimal(item["precio"])
+                };
+
+                listVentas.Add(new Venta
+                {
+                    fechaVenta = Convert.ToDateTime(item["fechaVenta"]),
+                    precioFinal = Convert.ToDecimal(item["precioFinal"]),
+                    cantidadProducto = Convert.ToInt32(item["cantidadDeProducto"]),
+                    descuento = Convert.ToInt32(item["descuento"]),
+                    idProducto = producto
+                });
+            }
+            return listVentas;
+        }
     }
 }

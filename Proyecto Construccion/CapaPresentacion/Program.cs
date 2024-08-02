@@ -1,3 +1,5 @@
+﻿using System;
+using System.Windows.Forms;
 using CapaPresentacion.Forms;
 
 namespace CapaPresentacion
@@ -10,8 +12,6 @@ namespace CapaPresentacion
         [STAThread]
         static void Main()
         {
-            // To customize application configuration such as set high DPI settings or default font,
-            // see https://aka.ms/applicationconfiguration.
             ApplicationConfiguration.Initialize();
             Application.Run(new frmLogin());
         }

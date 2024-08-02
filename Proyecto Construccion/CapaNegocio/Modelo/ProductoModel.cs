@@ -2,6 +2,7 @@
 using CapaDatos.Entidades;
 using CapaDatos.Repositorio;
 using CapaNegocio.ValueObjects;
+using Microsoft.Data.SqlClient;
 using System;
 using System.Collections.Generic;
 
@@ -33,7 +34,7 @@ namespace CapaNegocio.Modelo
             _productoRepository = new Productorepository();
         }
 
-
+        //Metodo que usa entityState para guardar los cambios dependiendo del estado
         public string SaveChanges()
         {
             string message = "";
@@ -65,6 +66,18 @@ namespace CapaNegocio.Modelo
                         break;
                 }
             }
+            catch (SqlException ex)
+            {
+                //Excepcion para controlar que se borren primero los productos asignados a una venta
+                if (ex.Number == 547)
+                {
+                    message = "Primero deben borrarse las ventas asignadas a este producto.";
+                }
+                else
+                {
+                    message = "Ocurrió un error al eliminar el cliente: " + ex.Message;
+                }
+            }
             catch (Exception ex)
             {
                 message = ex.Message;
@@ -72,6 +85,7 @@ namespace CapaNegocio.Modelo
             return message;
         }
 
+        //Metodo para obtener los datos de la tabla y devovlerlos como lsita
         public List<ProductoModel> obtener()
         {
             var tablaProductos = _productoRepository.obtener();

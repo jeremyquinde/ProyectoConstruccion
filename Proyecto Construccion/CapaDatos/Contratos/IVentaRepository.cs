@@ -8,9 +8,9 @@ using System.Threading.Tasks;
 namespace CapaDatos.Contratos
 {
     //Interface especifica para la entidad de usuario
-    public interface IUsuarioRepository : IGenericRepository<Usuario>
+    public interface IVentaRepository: IGenericRepository<Venta>
     {
-        //Adicion del metodo a implementar autenticar usuario
-        Usuario AutenticarUsuario(string cedula, string contraseña);
+        //Adicion del metodo a implementar obtener informes de ventas
+        IEnumerable<Venta> ObtenerInformeVentas(DateTime fechaInicio, DateTime fechaFin);
     }
 }

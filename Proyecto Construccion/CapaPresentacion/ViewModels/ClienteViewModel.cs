@@ -16,6 +16,7 @@ namespace CapaPresentacion.ViewModels
             clienteModel = new ClienteModel();
         }
 
+        //Atributos mas validaciones de entrada de cada atributo
         public int IdCliente { get; set; }
         public EntityState State { private get; set; } 
 
@@ -39,8 +40,10 @@ namespace CapaPresentacion.ViewModels
         [RegularExpression(@"^\d+$", ErrorMessage = "El teléfono debe contener solo números")]
         public string Telefono { get; set; }
 
+        [Required(ErrorMessage = "La direccion es obligatorio")]
         public string Direccion { get; set; }
 
+        //Metodo para recoger los mensajes de error en validaciones y retornarlos como lista
         public List<ValidationResult> Validate()
         {
             var validationResults = new List<ValidationResult>();
@@ -49,6 +52,7 @@ namespace CapaPresentacion.ViewModels
             return validationResults;
         }
 
+        //Metodo para mapear los datos hacia cliente model
         public string SaveChanges()
         {
             clienteModel.IdCliente  = IdCliente;
@@ -63,6 +67,7 @@ namespace CapaPresentacion.ViewModels
             return clienteModel.SaveChanges();
         }
 
+        //Metodo para Mapear los datos desde cliente model a viewmodel
         public List<ClienteViewModel> Obtener()
         {
             var clientes = clienteModel.obtener();

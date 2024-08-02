@@ -34,8 +34,6 @@ namespace CapaPresentacion
             pnlateral1 = new Panel();
             panel6 = new Panel();
             btnInformeVentas = new FontAwesome.Sharp.IconButton();
-            panel4 = new Panel();
-            btnInformeInventario = new FontAwesome.Sharp.IconButton();
             pnlSesion = new Panel();
             btnCerrarSesion = new FontAwesome.Sharp.IconButton();
             pnlInicio = new Panel();
@@ -49,7 +47,6 @@ namespace CapaPresentacion
             pnlateral2.SuspendLayout();
             pnlateral1.SuspendLayout();
             panel6.SuspendLayout();
-            panel4.SuspendLayout();
             pnlSesion.SuspendLayout();
             pnlInicio.SuspendLayout();
             panel1.SuspendLayout();
@@ -71,7 +68,6 @@ namespace CapaPresentacion
             // 
             pnlateral1.BackColor = Color.FromArgb(62, 49, 147);
             pnlateral1.Controls.Add(panel6);
-            pnlateral1.Controls.Add(panel4);
             pnlateral1.Controls.Add(pnlSesion);
             pnlateral1.Controls.Add(pnlInicio);
             pnlateral1.Controls.Add(pnlBtnAbrir);
@@ -86,7 +82,7 @@ namespace CapaPresentacion
             panel6.BackColor = Color.Transparent;
             panel6.Controls.Add(btnInformeVentas);
             panel6.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            panel6.Location = new Point(2, 249);
+            panel6.Location = new Point(2, 161);
             panel6.Name = "panel6";
             panel6.Size = new Size(237, 74);
             panel6.TabIndex = 13;
@@ -113,39 +109,6 @@ namespace CapaPresentacion
             btnInformeVentas.TextImageRelation = TextImageRelation.ImageBeforeText;
             btnInformeVentas.UseVisualStyleBackColor = true;
             btnInformeVentas.Click += btnInformeVentas_Click;
-            // 
-            // panel4
-            // 
-            panel4.BackColor = Color.Transparent;
-            panel4.Controls.Add(btnInformeInventario);
-            panel4.Font = new Font("Microsoft Sans Serif", 12F, FontStyle.Regular, GraphicsUnit.Point);
-            panel4.Location = new Point(3, 164);
-            panel4.Name = "panel4";
-            panel4.Size = new Size(234, 75);
-            panel4.TabIndex = 14;
-            // 
-            // btnInformeInventario
-            // 
-            btnInformeInventario.FlatAppearance.BorderSize = 0;
-            btnInformeInventario.FlatAppearance.MouseOverBackColor = Color.FromArgb(114, 63, 192);
-            btnInformeInventario.FlatStyle = FlatStyle.Flat;
-            btnInformeInventario.Font = new Font("Segoe UI", 12F, FontStyle.Bold, GraphicsUnit.Point);
-            btnInformeInventario.ForeColor = Color.FromArgb(229, 212, 251);
-            btnInformeInventario.IconChar = FontAwesome.Sharp.IconChar.BoxesAlt;
-            btnInformeInventario.IconColor = Color.FromArgb(229, 212, 251);
-            btnInformeInventario.IconFont = FontAwesome.Sharp.IconFont.Auto;
-            btnInformeInventario.IconSize = 40;
-            btnInformeInventario.ImageAlign = ContentAlignment.MiddleLeft;
-            btnInformeInventario.Location = new Point(-2, 0);
-            btnInformeInventario.Name = "btnInformeInventario";
-            btnInformeInventario.Padding = new Padding(10, 0, 20, 0);
-            btnInformeInventario.Size = new Size(237, 75);
-            btnInformeInventario.TabIndex = 12;
-            btnInformeInventario.Text = "     INFORMES                  INVENTARIO";
-            btnInformeInventario.TextAlign = ContentAlignment.MiddleLeft;
-            btnInformeInventario.TextImageRelation = TextImageRelation.ImageBeforeText;
-            btnInformeInventario.UseVisualStyleBackColor = true;
-            btnInformeInventario.Click += btnInformeInventario_Click;
             // 
             // pnlSesion
             // 
@@ -294,7 +257,6 @@ namespace CapaPresentacion
             pnlateral2.ResumeLayout(false);
             pnlateral1.ResumeLayout(false);
             panel6.ResumeLayout(false);
-            panel4.ResumeLayout(false);
             pnlSesion.ResumeLayout(false);
             pnlInicio.ResumeLayout(false);
             panel1.ResumeLayout(false);
@@ -316,8 +278,6 @@ namespace CapaPresentacion
         private FontAwesome.Sharp.IconButton btnAbrirCerrar;
         private Panel panel1;
         private Panel panel2;
-        private FontAwesome.Sharp.IconButton btnInformeInventario;
-        private Panel panel4;
         private Panel panel6;
         private FontAwesome.Sharp.IconButton btnInformeVentas;
     }
